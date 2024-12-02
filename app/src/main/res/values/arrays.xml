@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="range">
+        <item name="500">500 Meters</item>
+        <item name="1">1 Kilometer</item>
+        <item name="5">5 Kilometer</item>
+        <item name="10">10 Kilometers</item>
+    </string-array>
+    <string-array name="range_values">
+        <item name="1">500</item>
+        <item name="1">1000</item>
+        <item name="5">5000</item>
+        <item name="10">10000</item>
+    </string-array>
+</resources>

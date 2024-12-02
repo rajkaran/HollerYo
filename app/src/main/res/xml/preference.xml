@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Device Notifications"
+        android:key="pref_notifications_settings">
+
+        <CheckBoxPreference
+            android:key="pref_notifications"
+            android:title="Notifications"
+            android:summary="Receive notifications on this device."
+            android:defaultValue="true" />
+        <RingtonePreference
+            android:key="notification_sound"
+            android:ringtoneType="notification"
+            android:title="Notification Sound"
+            android:showDefault="true"
+            android:showSilent="true" />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Result Range"
+        android:key="pref_range_settings">
+
+        <ListPreference
+            android:key="pref_range"
+            android:entries="@array/range"
+            android:summary="Pick the radius"
+            android:entryValues="@array/range_values"
+            android:title="Range" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

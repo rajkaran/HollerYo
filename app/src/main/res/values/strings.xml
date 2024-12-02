@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HollerYo!</string>
+    <string name="app_id">1456750011232143</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_preference">Preference</string>
+    <string name="action_logout">Logout</string>
+    <string name="activity_fragment_title">Activities</string>
+    <string name="holler_fragment_title">Hollers</string>
+    <string name="message_fragment_title">Messages</string>
+    <string name="title_activity_new_holler">Create New Holler</string>
+    <string name="no_holler">Sorry, no hollers for you.</string>
+    <string name="title_activity_holler_view">View Holler</string>
+    <string name="title_activity_login">HollerYo!</string>
+    <string name="login">LogIn</string>
+    <string name="logout">Log Out</string>
+    <string name="login_intro">Login With Facebook</string>
+    <string name="location">Location</string>
+    <string name="gender">Gender</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="interestHeading">Select Interests</string>
+    <string name="chkSports">Sports</string>
+    <string name="chkDancing">Dance</string>
+    <string name="chkPolitics">Politics</string>
+    <string name="chkFashion">Fashion</string>
+    <string name="labelRange">Range in meters</string>
+    <string name="labelLocation">Current Location</string>
+    <string name="relatedHoller">Number of Related Holler</string>
+    <string name="totalHoller">Number of Total Holler</string>
+    <string name="welcome_message">Welcome back %s</string>
+
+    <string-array name="dropDownInterest">
+        <item>Arts</item>
+        <item>Business</item>
+        <item>Auto</item>
+        <item>Community</item>
+        <item>Education</item>
+        <item>Fashion</item>
+        <item>Fitness</item>
+        <item>Food</item>
+        <item>Games</item>
+        <item>Politics</item>
+        <item>Wellbeing</item>
+        <item>Hobbies</item>
+        <item>Ethnic</item>
+        <item>Lifestyle</item>
+        <item>Literature</item>
+        <item>Films</item>
+        <item>Music</item>
+        <item>Spirituality</item>
+        <item>Sports</item>
+    </string-array>
+
+    <string-array name="range_array">
+        <item>1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+        <item>50</item>
+        <item>10</item>
+    </string-array>
+
+</resources>
